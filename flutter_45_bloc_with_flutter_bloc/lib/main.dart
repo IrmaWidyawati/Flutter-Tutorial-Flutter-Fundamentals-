@@ -41,7 +41,7 @@ class MainPage extends StatelessWidget {
           ),
           FloatingActionButton(
             onPressed: () {
-              bloc.add(ColorEvent.to_light_blue);
+              bloc.add(ColorEvent.to_teal);
             },
             backgroundColor: Colors.teal,
           )

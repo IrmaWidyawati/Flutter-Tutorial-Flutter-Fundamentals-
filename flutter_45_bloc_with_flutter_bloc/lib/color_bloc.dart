@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 
-enum ColorEvent {to_amber, to_light_blue}
+enum ColorEvent {to_amber, to_teal}
 
 class ColorBloc extends Bloc<ColorEvent, Color>{
 Color _color = Colors.amber;
